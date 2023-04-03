@@ -2,25 +2,50 @@
   Fornito il seguente oggetto, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
-const me = {
+/* const me = {
   name: 'Joh',
   lastName: 'Doe',
   skills: ['javascript', 'html', 'css'],
 }
+me.skills.pop();
+console.log(me.skills); */
 
 /* //! ESERCIZIO 2
   Scrivi del codice per creare un array di soli valori DISPARI da 1 a 100.
  */
 
+/* let array = [];
 
+for (let num = 0; num <= 100; num++) {
+  if (num % 2 !== 0) {
+    array.push(num);
+  }
+}
+console.log(array); */
 
 /* //! ESERCIZIO 3
   Scrivi del codice per creare un array di 10 elementi; ognuno di essi deve essere un valore random compreso tra 0 e 100 (incluso).
  */
 
+/* let array = [];
+
+for (let num = 0; num < 10; num++) {
+  array2.push(Math.floor(Math.random() * 101));
+}
+console.log(array2); */
+
 /* //! ESERCIZIO 4
   Scrivi del codice per ricavare solamente i valori PARI da un array composto da soli valori numerici.
  */
+
+/* let array3 = [3, 65, 32, 30, 26, 25, 87];
+let dispari = [];
+
+for (let i = 0; i <= array3.length; i++) {
+  if (array3[i] % 2 === 0) {
+    console.log(array3[i]);
+  }
+} */
 
 /* //! ESERCIZIO 5
   Scrivi del codice per sommare a catena i numeri contenuti in un array.
@@ -81,11 +106,24 @@ console.log(array); */
   es: [1, 3, 5] ==> [5, 3, 1]
 */
 
+/* let array = [1, 3, 5];
+array.reverse();
 
+console.log(array); */
 
 /* //! ESERCIZIO 11
   Scrivi del codice per estrarre il massimo valore numerico da un array.
 */
+
+/* let array9 = [7, 78, 456, 9020, 61, 5, 7354];
+let maxInt = array9[0];
+
+for (let i = 0; i < array9.length; i++) {
+  if (array9[i] > maxInt) {
+    maxInt = array9[i];
+  }
+}
+console.log(maxInt); */
 
 /* Questo array di film verrà usato negli esercizi a seguire. Non modificarlo e scorri oltre per riprendere gli esercizi :) */
 const movies = [
